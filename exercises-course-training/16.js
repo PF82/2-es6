@@ -17,12 +17,12 @@ Use object property shorthand with object literals to create and return an objec
 const createPerson = (name, age, gender) => {
     // Only change code below this line
     return {
-        name: name,
-        age: age,
-        gender: gender
+        name,
+        age,
+        gender
     };
     // Only change code above this line
 };
 
-console.log()
+console.log(createPerson("Pedro", 39, "male"))
 // document.getElementById("demo").innerHTML = "";
