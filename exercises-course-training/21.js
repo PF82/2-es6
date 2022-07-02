@@ -23,12 +23,14 @@ There are two string-related functions in the editor. Export both of them using 
 */
 
 const uppercaseString = (string) => {
-    return string.toUpperCase();
+  return string.toUpperCase();
 }
 
 const lowercaseString = (string) => {
-    return string.toLowerCase()
+  return string.toLowerCase()
 }
+
+export { uppercaseString, lowercaseString };
 
 console.log()
 // document.getElementById("demo").innerHTML ="";

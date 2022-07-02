@@ -22,7 +22,7 @@ Refactor the function setGear inside the object bicycle to use the shorthand syn
 // Only change code below this line
 const bicycle = {
   gear: 2,
-  setGear: function(newGear) {
+  setGear(newGear) {
     this.gear = newGear;
   }
 };

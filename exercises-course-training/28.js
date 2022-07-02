@@ -23,6 +23,8 @@ const makeServerRequest = new Promise((resolve, reject) => {
         reject("Data not received");
     }
 });
-
+makeServerRequest.then(result => {
+    console.log(result);
+});
 console.log()
 //document.getElementById("demo").innerHTML = "";
