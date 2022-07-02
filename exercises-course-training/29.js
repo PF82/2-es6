@@ -21,7 +21,7 @@ const makeServerRequest = new Promise((resolve, reject) => {
     }
 });
 
-makeServerRequest.then(result => {
+makeServerRequest.catch(error => {
     console.log(result);
 });
 

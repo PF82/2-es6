@@ -21,14 +21,14 @@ pass it the string: Data not received.
 */
 
 const makeServerRequest = new Promise((resolve, reject) => {
-    // responseFromServer represents a response from a server
-    let responseFromServer;
+  // responseFromServer represents a response from a server
+  let responseFromServer;
 
-    if (responseFromServer) {
-        // Change this line
-    } else {
-        // Change this line
-    }
+  if (responseFromServer) {
+    resolve("We got the data"); // Change this line
+  } else {
+    reject("Data not received"); // Change this line
+  }
 });
 
 console.log()
