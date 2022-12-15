@@ -37,4 +37,10 @@ const { today, tomorrow } = HIGH_TEMPERATURES;
 // Only change code above this line
 
 console.log(HIGH_TEMPERATURES)
-// document.getElementById("demo").innerHTML = "";
+
+const user = { name: 'John Doe', age: 34 };
+
+// const name = user.name;
+// const age = user.age;
+const { name, age } = user;
+console.log(user);

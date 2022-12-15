@@ -27,9 +27,12 @@ const LOCAL_FORECAST = {
 };
 
 // Only change code below this line
-
 const { today: { low: lowToday, high: highToday } } = LOCAL_FORECAST;
+// const lowToday = LOCAL_FORECAST.today.low;
+// const highToday = LOCAL_FORECAST.today.high;
+
 // Only change code above this line
 
-console.log(LOCAL_FORECAST)
+console.log(lowToday)
+console.log(highToday);
 // document.getElementById("demo").innerHTML = "";

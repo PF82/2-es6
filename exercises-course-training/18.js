@@ -39,11 +39,5 @@ The Vegetable class allows you to create a vegetable object with a property name
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
 
-class Vegetable {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-console.log(Vegetable.name)
+console.log()
 // document.getElementById("demo").innerHTML = "";

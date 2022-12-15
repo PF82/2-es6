@@ -23,10 +23,10 @@ const HIGH_TEMPERATURES = {
 };
 
 // Only change code below this line
-
 const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
 
 // Only change code above this line
 
-console.log(HIGH_TEMPERATURES)
+console.log(highToday)
+console.log(highTomorrow);
 // document.getElementById("demo").innerHTML = "";

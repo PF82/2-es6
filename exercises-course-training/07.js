@@ -19,8 +19,9 @@ Modify the function sum using the rest parameter in such a way that the function
 */
 
 const sum = (...args) => {
+  const args = [x, y, z];
   return args.reduce((a, b) => a + b, 0);
 }
 
-console.log(sum(1, 2, 3, 4, 5))
+console.log(sum(1, 2, 3))
 // document.getElementById("demo").innerHTML = "";

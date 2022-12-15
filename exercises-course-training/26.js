@@ -15,5 +15,5 @@ const makeServerRequest = new Promise((resolve, reject) => {
 
 });
 
-console.log()
+console.log(makeServerRequest)
 // document.getElementById("demo").innerHTML = "";

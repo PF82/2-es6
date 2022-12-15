@@ -22,7 +22,7 @@ const makeServerRequest = new Promise((resolve, reject) => {
 });
 
 makeServerRequest.catch(error => {
-    console.log(result);
+    console.log(error);
 });
 
 console.log()
